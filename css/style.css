@@ -1,0 +1,92 @@
+header{
+	width:100%;
+	background-image: url("../img/banner.jpg");
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+}
+header .top{
+	width:100%;
+	padding-top:4px;
+	padding-bottom:0px;
+	margin-bottom:2px;
+	/*background-color:teal;*/
+}
+header .top:hover{
+	background-color:rgba(0,0,0,0.7);
+}
+
+header .top .dropdown button{
+	background-color: transparent;
+	border:transparent;
+}
+header .top .dropdown .btn:focus,
+header .top .dropdown .btn:hover{
+	background-color:rgba(0,0,0,0.7 );
+	border:transparent;
+}
+header .top h3
+{
+	font-size:25px;
+	font-weight:600;
+	color:#fff;
+	letter-spacing:1px;
+}
+header .top a
+{
+	text-decoration:none;
+	
+}
+header .top a h6:hover{
+	color:#066ee2;
+}
+header .top a h6{
+	color: #fff;
+	font-size:15px;
+	font-weight:400;
+	margin-top:9px;
+}
+header .top .input-group{
+	margin-left:-50px;
+}
+header .top .input-group input[type="text"]::placeholder{
+	color:#fff;
+}
+header .top .input-group input[type="text"]::-ms-placeholder{
+	color:#fff;
+}
+header .top .input-group input[type="text"]::-moz-placeholder{
+	color:#fff;
+}
+header .top .input-group input[type="text"]::-webkit-placeholder{
+	color:#fff;
+}
+header .top .input-group input, header .top .input-group .input-group-append button{
+	border:rgba(0,0,0,0.2);
+	border-radius:0px;
+	background-color:rgba(0,0,0,0.2);
+}
+header .top hr{
+	width:100%;
+	color:#fff;
+	border:0.3px solid #fff;
+	margin-top:-0px;
+}
+
+header .banner{
+	width:100%;
+}
+header .banner .banner_wrapper{
+	width:50%;
+	margin:10% auto;
+	background-color:teal;
+	text-align:center;
+}
+header .banner .banner_wrapper .banner_btn{
+	width:100%;
+	background-color:red;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-bottom:4px;
+}
