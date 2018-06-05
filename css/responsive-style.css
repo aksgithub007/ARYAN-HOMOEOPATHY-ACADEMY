@@ -1,0 +1,109 @@
+@media screen and (max-width: 400px){
+	header .top .dropdown button{
+    margin-left:10px;
+}
+header .top .dropdown .dropdown-menu.show{
+	position: absolute;
+    transform: translate3d(0px, 36px, 0px);
+    top: 0px;
+    left:-120px;
+    will-change: transform;
+    width:348px;
+    min-height:200px;
+    border-radius:0;
+    padding-left:2px;
+    padding-right:4px;
+    z-index:100;
+}
+header .top .dropdown .dropdown-menu.show a{
+	font-size:12px;
+	font-weight:400;
+	color:#000;
+}
+header .top .top_nav{
+z-index: 99;
+}
+header .top .aa{
+	margin-top:-35px;
+	margin-left:50%;
+	margin-bottom:5px;
+	background-color:;
+}
+header .top .input-group input{
+	margin-right:0px;
+}
+header .top .input-group .input-group-append button{
+	margin-right:-80px;
+}
+header .top .top_head h3{
+	display:none;
+}
+header .top .top_link{
+	display:none;
+}
+header .top .top_link a{
+
+}
+.desktop_nav{
+	display:none;
+}
+header .banner .banner_wrapper{
+	width:100%;
+}
+header .banner .banner_wrapper .banner_btn{
+	display:none;
+}
+header .banner .banner_wrapper h2{
+	font-size:25px;
+	font-weight:600;
+	color:#fff;
+}
+header .banner .banner_wrapper p{
+	font-size:16px;
+	font-weight:normal;
+	color:#fff;
+}
+#about .abt_txt button{
+	margin:15px 33%;
+}
+.sub_btn a{
+	text-decoration:none;
+	padding:10px 35px;
+	background-color:#fff;
+    margin-left:31%;
+    color:#000;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+}
+#testimonial{
+	display: block;
+	width:100%;
+	padding-top:30px;
+	padding-bottom:20px;
+}
+.carousel {
+	width: 350px;
+	margin: 4% auto;
+	padding-bottom: 50px;
+}
+footer .link_ftr p{
+	font-size:14px;
+	font-weight:normal;
+	text-align:center;
+	margin-left:-3%;
+}
+footer  .add ul{
+	list-style-type:none;
+	text-align:center;
+	margin-left:-40px;
+}
+footer .ftr p{
+	font-size:12px;
+	font-weight:normal;
+	color:#fff;
+	text-align:center;
+}
+footer .social{
+	margin-left:35%;
+}
+}
