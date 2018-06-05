@@ -147,6 +147,10 @@ header .banner .banner_wrapper a{
 header .banner .banner_wrapper a .banner_btn:hover{
 	color:#066ee2;
 }
+header .top .top_nav{
+	display:none;
+}
+
 /*end top and banner section here*/
 
 /*navigation style start here*/
