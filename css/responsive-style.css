@@ -23,6 +23,13 @@ header .top .dropdown .dropdown-menu.show a{
 header .top .top_nav{
 z-index: 99;
 }
+header .top .top_nav .navbar-brand {
+	font-size:25px;
+	font-weight:600;
+	color:#fff;
+	letter-spacing:1px;
+
+}
 header .top .aa{
 	margin-top:-35px;
 	margin-left:50%;
