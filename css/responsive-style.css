@@ -82,6 +82,16 @@ header .banner .banner_wrapper p{
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
 }
+#service{
+	padding-top:12px;
+	padding-bottom:12px;
+
+}
+#team{
+	padding-top:12px;
+	padding-bottom:12px;
+	
+}
 #testimonial{
 	display: block;
 	width:100%;
