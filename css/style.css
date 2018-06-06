@@ -213,7 +213,7 @@ nav .collapse  ul .nav-item .nav-link:hover{
 	line-height:25px;
 }
 #about .abt_txt button{
-	margin:15px 40%;
+	margin:15px auto;
 }
 #about .abt_txt button:hover{
 	background-color:transparent;
@@ -601,7 +601,7 @@ nav .collapse  ul .nav-item .nav-link:hover{
 /*footer section start here*/
 footer{
 	width:100%;
-	padding-top:20px;
+	padding-top:50px;
 	padding-bottom:20px;
 	background-color:#000;
 }
